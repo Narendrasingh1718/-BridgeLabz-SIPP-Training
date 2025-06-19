@@ -1,7 +1,6 @@
 public class ArrayIndexOutOfBoundsDemo {
     
     public static void generateException(String[] names) {
-       
         System.out.println(names[names.length]);
     }
     public static void handleException(String[] names) {
