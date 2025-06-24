@@ -14,7 +14,6 @@ public class Count {
                 contsonant_count++;
             }
         }
-        
         System.out.println("Number of vowels in String"  +  vowel_ct);
         System.out.println("Number of consonants in String: " + contsonant_count);
         sc.close();
