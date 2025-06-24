@@ -20,7 +20,6 @@ public class CompareString {
             }
         }
         System.out.println("Strings are equal character by character");
-  
         scanner.close();
     }
 }
