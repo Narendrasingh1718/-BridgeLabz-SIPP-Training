@@ -19,7 +19,6 @@ public class Replaceword {
             }
         }
         System.out.println("Updated string: " + input);
-
         scanner.close();
     }
 }
