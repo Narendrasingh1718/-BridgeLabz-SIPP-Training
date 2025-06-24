@@ -40,8 +40,6 @@ public class StudentScorecard {
         }
         return grades;
     }
-
-    
     public static void displayScorecard(int[][] scores, double[][] stats, String[] grades) {
         System.out.println("Roll\tPhysics\tChemistry\tMaths\tTotal\tAverage\t%\tGrade");
         for (int i = 0; i < scores.length; i++) {

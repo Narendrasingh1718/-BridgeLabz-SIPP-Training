@@ -27,8 +27,6 @@ public class RockPaperScissors {
         stats[1][2] = String.format("%.2f", (compWins * 100.0) / games);
         return stats;
     }
-
-    
     public static void displayResults(String[][] results, String[][] stats) {
         System.out.println("Game\tUser\tComputer\tWinner");
         for (int i = 0; i < results.length; i++) {

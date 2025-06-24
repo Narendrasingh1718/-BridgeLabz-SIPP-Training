@@ -39,8 +39,6 @@ public class ShortestLongestWord {
         }
         return arr;
     }
-
-    
     public static int[] findShortestLongest(String[][] arr) {
         int minIdx = 0, maxIdx = 0;
         int minLen = Integer.parseInt(arr[0][1]);

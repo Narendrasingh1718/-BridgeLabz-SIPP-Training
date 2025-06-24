@@ -1,7 +1,6 @@
 public class ArrayIndexOutOfBoundsDemo {
     
     public static void generateException(String[] names) {
-       
         System.out.println(names[names.length]);
     }
     public static void handleException(String[] names) {
@@ -13,7 +12,6 @@ public class ArrayIndexOutOfBoundsDemo {
             System.out.println("Caught RuntimeException: " + e.getMessage());
         }
     }
-
     public static void main(String[] args) {
         String[] names = {"Alice", "Bob", "Charlie"};
         System.out.println("Demonstrating ArrayIndexOutOfBoundsException handling:");

@@ -2,7 +2,6 @@ public class NullPointerDemo {
     
     public static void generateNullPointer() {
         String text = null;
-        
         System.out.println(text.length());
     }   
     public static void handleNullPointer() {
