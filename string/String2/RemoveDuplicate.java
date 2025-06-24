@@ -12,7 +12,6 @@ public class RemoveDuplicate {
                 result.append(currentChar);
             }
         }
-
         System.out.println("String after removing duplicates: " + result.toString());
         scanner.close();
     }  
