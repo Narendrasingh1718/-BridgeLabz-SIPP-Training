@@ -15,7 +15,6 @@ public class RemoveSpecificChar {
                 result.append(currentChar);
             }
         }
-        
         System.out.println("String after removing '" + charToRemove + "': " + result.toString());
         scanner.close();
     }   
