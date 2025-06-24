@@ -5,7 +5,6 @@ import java.time.format.DateTimeFormatter;
 public class TimeZoneExample {
     public static void main(String[] args) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss z");
-
         ZonedDateTime gmtTime = ZonedDateTime.now(ZoneId.of("GMT"));
         ZonedDateTime istTime = ZonedDateTime.now(ZoneId.of("Asia/Kolkata"));
         ZonedDateTime pstTime = ZonedDateTime.now(ZoneId.of("America/Los_Angeles"));
