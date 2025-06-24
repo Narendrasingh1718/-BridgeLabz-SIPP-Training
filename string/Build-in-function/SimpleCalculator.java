@@ -9,7 +9,6 @@ public class SimpleCalculator {
         System.out.println(" Subtract");
         System.out.println(" Multiply");
         System.out.println(" Divide");
-
         System.out.print("Choose an operation");
         int choice = scanner.nextInt();
 
