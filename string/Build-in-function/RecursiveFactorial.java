@@ -11,7 +11,6 @@ public class RecursiveFactorial {
         }
         return n * factorial(n - 1);
     }
-
     public static void displayResult(int n, long fact) {
         System.out.println("Factorial of " + n + " is " + fact);
     }
