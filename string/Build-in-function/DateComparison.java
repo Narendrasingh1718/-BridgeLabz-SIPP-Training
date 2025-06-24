@@ -7,7 +7,6 @@ public class DateComparison {
 
         System.out.print("Enter first date (yyyy-MM-dd)");
         LocalDate date1 = LocalDate.parse(sc.nextLine());
-
         System.out.print("Enter second date (yyyy-MM-dd): ");
         LocalDate date2 = LocalDate.parse(sc.nextLine());
 
