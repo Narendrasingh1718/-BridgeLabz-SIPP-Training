@@ -16,7 +16,6 @@ public class Togglecase {
                 toggledString.append(currentChar); // Non-alphabetic characters remain unchanged
             }
         }
-
         System.out.println("Toggled case string: " + toggledString.toString());
         scanner.close();
     }
