@@ -12,7 +12,6 @@ public class AnagramString {
         } else {
             System.out.println("The strings are not anagrams.");
         }
-        
         scanner.close();
     }
 
