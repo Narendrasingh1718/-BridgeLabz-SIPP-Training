@@ -4,7 +4,6 @@ public class GCDLCMCalculator {
         System.out.print("Enter " + label + " number: ");
         return scanner.nextInt();
     }
-
     public static int gcd(int a, int b) {
         if (b == 0){
             return a;
