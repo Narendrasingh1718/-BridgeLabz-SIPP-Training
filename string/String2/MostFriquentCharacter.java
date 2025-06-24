@@ -9,7 +9,6 @@ public class MostFriquentCharacter {
         for (char c : input.toCharArray()) {
             frequency[c]++;
         }
-        
         char mostFrequentChar = input.charAt(0);
         int maxFrequency = frequency[mostFrequentChar];
         
