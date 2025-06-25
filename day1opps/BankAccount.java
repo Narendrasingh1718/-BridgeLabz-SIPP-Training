@@ -1,7 +1,5 @@
 package com.classobject;
-
 import java.util.Scanner;
-
 public class BankAccount {
     private String accountHolder;
     private String accountNumber;
