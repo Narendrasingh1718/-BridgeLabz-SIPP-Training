@@ -2,7 +2,6 @@ package JavaConstructors.Level1;
 
 public class Circle {
     private double radius;
-
     public Circle() {
         this(1.0);  
     }
