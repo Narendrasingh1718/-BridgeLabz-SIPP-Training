@@ -4,7 +4,6 @@ class Student {
     public int rollNumber;
     protected String name;
     private double CGPA;
-
     public Student(int rollNumber, String name, double CGPA) {
         this.rollNumber = rollNumber;
         this.name = name;

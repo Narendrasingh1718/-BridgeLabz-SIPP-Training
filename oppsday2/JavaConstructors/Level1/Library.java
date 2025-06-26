@@ -5,7 +5,6 @@ public class Library {
     private String author;
     private double price;
     private boolean isAvailable;
-
     public Library(String title, String author, double price) {
         this.title = title;
         this.author = author;

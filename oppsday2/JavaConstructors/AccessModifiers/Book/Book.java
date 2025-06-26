@@ -4,7 +4,6 @@ class Book {
     public String ISBN;
     protected String title;
     private String author;
-
     public Book(String ISBN, String title, String author) {
         this.ISBN = ISBN;
         this.title = title;

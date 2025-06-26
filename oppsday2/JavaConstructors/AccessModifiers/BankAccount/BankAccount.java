@@ -4,7 +4,6 @@ class BankAccount {
     public String accountNumber;
     protected String accountHolder;
     private double balance;
-
     public BankAccount(String accountNumber, String accountHolder, double balance) {
         this.accountNumber = accountNumber;
         this.accountHolder = accountHolder;

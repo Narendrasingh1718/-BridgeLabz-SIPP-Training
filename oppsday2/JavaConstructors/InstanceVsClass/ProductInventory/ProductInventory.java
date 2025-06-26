@@ -3,7 +3,6 @@ package JavaConstructors.InstanceVsClass.ProductInventory;
 public class ProductInventory {
     private String productName;
     private double price;
-
     private static int totalProducts = 0;
 
     // Constructor
