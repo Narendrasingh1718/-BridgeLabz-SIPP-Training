@@ -8,7 +8,6 @@ public class Q5_Student {
     private final int rollNumber;
     private String name;
     private String grade;
-
     public Q5_Student(String name, int rollNumber, String grade) {
         this.name = name;
         this.rollNumber = rollNumber;
