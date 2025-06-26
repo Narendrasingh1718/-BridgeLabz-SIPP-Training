@@ -7,7 +7,6 @@ public class Q1_BankAccount {
     private static int totalAccounts = 0;
     private final int accountNumber;
     private String accountHolderName;
-
     public Q1_BankAccount(String accountHolderName, int accountNumber) {
         this.accountHolderName = accountHolderName;
         this.accountNumber = accountNumber;
