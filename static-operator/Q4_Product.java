@@ -14,7 +14,6 @@ public class Q4_Product {
         this.price = price;
         this.quantity = quantity;
     }
-
     public static void updateDiscount(double newDiscount) {
         discount = newDiscount;
     }
