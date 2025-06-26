@@ -14,7 +14,6 @@ public class Q5_Student {
         this.grade = grade;
         totalStudents++;
     }
-
     public static void displayTotalStudents() {
         System.out.println("Total Students: " + totalStudents);
     }
