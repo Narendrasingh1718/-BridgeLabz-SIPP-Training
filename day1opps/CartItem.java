@@ -1,7 +1,6 @@
 package com.classobject;
 
 import java.util.Scanner;
-
 public class CartItem {
     private String itemName;
     private double price;

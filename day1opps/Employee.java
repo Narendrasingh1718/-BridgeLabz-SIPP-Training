@@ -1,5 +1,4 @@
 package com.classobject;
-
 class Employee{
 	 String name;
 	 int id;
