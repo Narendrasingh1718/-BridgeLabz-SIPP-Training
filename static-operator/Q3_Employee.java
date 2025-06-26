@@ -8,14 +8,12 @@ public class Q3_Employee {
     private final int id;
     private String name;
     private String designation;
-
     public Q3_Employee(String name, int id, String designation) {
         this.name = name;
         this.id = id;
         this.designation = designation;
         totalEmployees++;
     }
-
     public static void displayTotalEmployees() {
         System.out.println("Total Employees: " + totalEmployees);
     }
