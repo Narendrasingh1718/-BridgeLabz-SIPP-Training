@@ -9,7 +9,6 @@ public class Q7_Patient {
     private String name;
     private int age;
     private String ailment;
-
     public Q7_Patient(int patientID, String name, int age, String ailment) {
         this.patientID = patientID;
         this.name = name;
