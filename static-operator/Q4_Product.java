@@ -8,7 +8,6 @@ public class Q4_Product {
     private String productName;
     private double price;
     private int quantity;
-
     public Q4_Product(int productID, String productName, double price, int quantity) {
         this.productID = productID;
         this.productName = productName;
