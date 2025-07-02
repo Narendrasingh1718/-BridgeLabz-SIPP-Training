@@ -4,7 +4,6 @@ package inheritance_package;
 class Animal {
  String name;
  int age;
-
  // Constructor
  Animal(String name, int age) {
      this.name = name;
