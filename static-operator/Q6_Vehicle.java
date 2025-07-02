@@ -13,11 +13,9 @@ public class Q6_Vehicle {
         this.vehicleType = vehicleType;
         this.registrationNumber = registrationNumber;
     }
-
     public static void updateRegistrationFee(double newFee) {
         registrationFee = newFee;
     }
-
     public void displayDetails() {
         System.out.println("Owner: " + ownerName);
         System.out.println("Vehicle Type: " + vehicleType);
