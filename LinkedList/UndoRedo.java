@@ -4,7 +4,6 @@ package linked_list_package;
 class TextState {
  String content;
  TextState prev, next;
- 
 //Constructor
  TextState(String content) {
      this.content = content;
