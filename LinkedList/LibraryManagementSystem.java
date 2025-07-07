@@ -6,7 +6,6 @@ class Book {
  int id;
  boolean available;
  Book prev, next;
-
  // Constructor
  Book(String title, String author, String genre, int id, boolean available) {
      this.title = title;
