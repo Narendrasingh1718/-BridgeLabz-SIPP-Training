@@ -1,7 +1,6 @@
 package linked_list_package;
 
 import java.util.*;
-
 //Node class
 class User {
  int id, age;
