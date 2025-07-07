@@ -7,7 +7,6 @@ class Student {
     int age;
     char grade;
     Student next;
-    
 //Constructor
     public Student(int rollNumber, String name, int age, char grade) {
         this.rollNumber = rollNumber;
