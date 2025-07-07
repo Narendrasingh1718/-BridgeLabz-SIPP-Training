@@ -8,7 +8,6 @@ class Movie {
     double rating;
     Movie prev;
     Movie next;
-    
 //Constructor
     Movie(String title, String director, int year, double rating) {
         this.title = title;
