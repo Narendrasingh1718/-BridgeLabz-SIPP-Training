@@ -5,7 +5,6 @@ class Ticket {
     int id;
     String customer, movie, seat, time;
     Ticket next;
-    
 //Constructor
     Ticket(int id, String customer, String movie, String seat, String time) {
         this.id = id;
